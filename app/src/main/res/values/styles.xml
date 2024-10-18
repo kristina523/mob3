@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- белая тема -->
+    <style name="AppTheme_Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryLight</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkLight</item>
+        <item name="colorAccent">@color/colorAccentLight</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryLight</item>
+        <item name="android:windowBackground">@color/windowBackgroundLight</item>
+            </style>
+
+    <!-- темная тема -->
+    <style name="AppTheme_Dark" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDarkDark</item>
+        <item name="colorAccent">@color/colorAccentDark</item>
+        <item name="android:textColorPrimary">@color/textColorPrimaryDark</item>
+        <item name="android:windowBackground">@color/windowBackgroundDark</item>
+    </style>
+
+
+
+    <style name="GameButton">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_margin">2dp</item> <!-- Уменьшенный отступ -->
+        <item name="android:background">#FF0000</item> <!-- Красный цвет фона -->
+        <item name="android:textColor">#FFFFFF</item> <!-- Белый цвет текста -->
+        <item name="android:textSize">20sp</item> <!-- Уменьшенный размер текста -->
+        <item name="android:layout_gravity">fill</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_columnWeight">1</item>
+    </style>
+
+
+</resources>

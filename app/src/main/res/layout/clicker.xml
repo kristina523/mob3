@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Текст для отображения очков -->
+    <TextView
+        android:id="@+id/scoreView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Очки: 0"
+        android:textSize="24sp"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Картинка с хомяком -->
+    <ImageView
+        android:id="@+id/hamsterImage"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/hamster"
+        android:contentDescription="Hamster"
+        android:layout_marginBottom="16dp"/>
+
+    <!-- Изображение луны для смены темы в правом верхнем углу -->
+    <ImageView
+        android:id="@+id/changeThemeImage"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:src="@drawable/moon_black"
+        android:contentDescription="Смена темы"
+        android:layout_gravity="end|top"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="16dp"/>
+
+</LinearLayout>
